@@ -4,12 +4,6 @@ Este projeto é uma réplica simplificada da interface do YouTube, criada como p
 
 ---
 
-## 📸 Captura de Tela
-
-![Screenshot do projeto](./assets/img/screenshot.png) <!-- Substitua pelo caminho real de uma imagem se tiver -->
-
----
-
 ## 🚀 Funcionalidades
 
 - ✅ Layout inspirado no YouTube
@@ -32,12 +26,12 @@ Este projeto é uma réplica simplificada da interface do YouTube, criada como p
 ## 📁 Estrutura de Pastas
 
 
-├── index.html
-├── assets/
-│ ├── style.css
-│ ├── img/
-│ │ ├── favicon_io/
-│ │ ├── Thumb/
+├── index.html <br>
+├── assets/ <br>
+│ ├── style.css <br>
+│ ├── img/ <br>
+│ │ ├── favicon_io/ <br>
+│ │ ├── Thumb/ <br>
 │ │ └── ...imagens do layout
 
 
