@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Flexbox - YouTube</title>
+    <meta name="description" content="Réplica do YouTube com trailer de One Piece, vídeos sugeridos e muito mais.">
+    <meta property="og:title" content="Desafio Flexbox - YouTube">
+    <meta property="og:description" content="Interface simulada do YouTube com layout responsivo em Flexbox.">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon_io/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header id="logomarca" role="banner">
+        <div class="menu">
+            <figure>
+                <img class="line-1" src="assets/img/menu.png" alt="Menu principal">
+                <img class="line-2" src="assets/img/youtube_1.png" alt="Logotipo do YouTube">
+            </figure>
+            <div class="search">
+                <input type="text" placeholder="Pesquisar" aria-label="Campo de busca">
+                <button type="submit" aria-label="Pesquisar">
+                    <img class="search-icon" src="assets/img/search.png" alt="Ícone de busca">
+                </button>
+            </div>
+            <div class="icons">
+                <figure>
+                    <img class="menu-right" src="assets/img/video.png" alt="Botão de vídeo">
+                    <img class="menu-right" src="assets/img/bell.png" alt="Botão de notificação">
+                    <img class="menu-right" src="assets/img/avatar.png" alt="Foto do perfil do usuário">
+                </figure>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+        <section class="main-video">
+            <div class="video-wrapper">
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/5Bat1OcU6_A?si=4KScUrcZSxPVFezL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+           
+            <h1>ONE PIECE: A Série | Trailer oficial | Netflix</h1>
+            <div class="video-info-container">
+                <div class="video-profile">
+                    <img src="assets/img/netflix_PNG22.png" alt="Logo da Netflix">
+                    <div class="detail-profile">
+                        <a href="#" class="channel-link">Netflix</a>
+                        <p>2,5 M de inscritos</p>
+                    </div>
+                    <button class="subscribe-button">Inscreva-se</button>
+                </div>
+                <div class="video-buttons-interaction">
+                    <button aria-label="Curtir este vídeo">
+                        <img src="assets/img/likegrey.svg" alt="Curtir">2 mil
+                    </button>
+                    <button aria-label="Não gostei deste vídeo">
+                        <img src="assets/img/dislikegrey.svg" alt="Não gostei">Não gostei
+                    </button>
+                    <button aria-label="Compartilhar vídeo">
+                        <img src="assets/img/sharegrey.svg" alt="Compartilhar">Compartilhar
+                    </button>
+                    <button aria-label="Fazer download do vídeo">
+                        <img src="assets/img/downloadgrey.svg" alt="Download">Download
+                    </button>
+                </div>
+            </div>
+            <div class="main-video-views">
+                <span>2.576.877 visualizações</span>
+                <time datetime="2023-07-21">21 de julho de 2023</time>
+            </div>
+            <div class="description-video">
+                Todos a bordo! Levantem as âncoras! A jornada em busca do ONE PIECE começa em 31 de agosto. Só na Netflix. <br><br>
+                <strong>Sobre a Netflix:</strong> <br>
+                A Netflix é um dos principais serviços de entretenimento do mundo. São 233 milhões de assinaturas pagas em mais de 190 países com acesso a séries, filmes e jogos de diversos gêneros e idiomas. Assinantes podem assistir, pausar e voltar a assistir a um título quantas vezes quiserem em qualquer lugar e alterar o plano a qualquer momento. <br><br>
+                <strong>ONE PIECE: A Série | Trailer oficial | Netflix</strong>
+            </div>
+        </section>
+
+       <aside class="side-menu">
+            <div class="container-video">
+                <div class="wrapper">
+                    <img src="assets/Img/Thumb/billie_elish.avif" alt="Imagem da artista Billie Elish">
+                </div>
+                <div class="container-text">
+                    <h2>Billie Elish - BIRDS OF A FEATHER (Official Music Video)</h2>
+                    <a href="https://www.youtube.com/watch?v=V9PVRfjEBTI&list=RDV9PVRfjEBTI&start_radio=1&pp=oAcB">Billie Elish</a>
+                    <div class="details">
+                        <p>499M Views</p>
+                        <p>10 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-video">
+                <div class="wrapper">
+                    <img src="assets/Img/Thumb/HarryStyles.avif" alt="Imagem do artista Harry Styles">
+                </div>
+                <div class="container-text">
+                    <h2>Harry Styles - As it Was (Official Video)</h2>
+                    <a href="https://www.youtube.com/watch?v=H5v3kku4y6Q&list=RDH5v3kku4y6Q&start_radio=1">Harry Stiles</a>
+                    <div class="details">
+                        <p>857,216,488 views</p>
+                        <p>3 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+               <div class="container-video">
+                <div class="wrapper">
+                    <img src="assets/Img/Thumb/ClassicMusic.avif" alt="Imagem de um músico tocando piano">
+                </div>
+                <div class="container-text">
+                    <h2>50 Classical Music for Ralaxation</h2>
+                    <a href="https://www.youtube.com/watch?v=IYd1-cPwQCk">Músicas relaxantes</a>
+                    <div class="details">
+                        <p>14M views</p>
+                        <p>6 months ago </p>
+                    </div>
+                </div>
+            </div>
+
+                 <div class="container-video">
+                <div class="wrapper">
+                    <img src="assets/Img/Thumb/dragonballz.avif" alt="Imagem do anime Dragon ball Z">
+                </div>
+                <div class="container-text">
+                    <h2>DRAGON BALL Z - 2ª abertura | Português PT-BR</h2>
+                    <a href="https://www.youtube.com/watch?v=3H_8S1O8kM8&list=RD3H_8S1O8kM8&start_radio=1">Anime Dragon Ball Z</a>
+                    <div class="details">
+                        <p>396K views</p>
+                        <p>1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+                  <div class="container-video">
+                <div class="wrapper">
+                    <img src="assets/Img/Thumb/erased.webp" alt="Imagem do anime Erased">
+                </div>
+                <div class="container-text">
+                    <h2>Erased English Trailer</h2>
+                    <a href="https://www.youtube.com/watch?v=DwmxEAWjTQQ">Anime Erased</a>
+                    <div class="details">
+                        <p>1.7M views</p>
+                        <p>9 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-video">
+                <div class="wrapper">
+                    <img src="assets/Img/Thumb/ListaSchindler.avif" alt="Imagem do filme a lista de schindler">
+                </div>
+                <div class="container-text">
+                    <h2>A Lista de Schindler- 25º Aniversário - Trailler</h2>
+                    <a href="https://www.youtube.com/watch?v=GAf0nGq_FXQ">Filme a lista de Schindler</a>
+                    <div class="details">
+                        <p>310K views</p>
+                        <p>6 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="container-video">
+                <div class="wrapper">
+                    <img src="assets/Img/Thumb/Pitty.avif" alt="Imagem do video musical da cantora Pitty">
+                </div>
+                <div class="container-text">
+                    <h2>Pitty - Na Sua Estante (Clipe Oficial)</h2>
+                    <a href="https://www.youtube.com/watch?v=DP3j6hgS4VY&list=RDDP3j6hgS4VY&start_radio=1">Pitty</a>
+                    <div class="details">
+                        <p>310K views</p>
+                        <p>16 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-video">
+                <div class="wrapper">
+                    <img src="assets/Img/Thumb/RedHot.avif" alt="Imagem do video musical da banda Red Hot Chilli Peppers">
+                </div>
+                <div class="container-text">
+                    <h2>Red Hot Chilli Peppers - Can`t Stop (Official Music Video)</h2>
+                    <a href="https://www.youtube.com/watch?v=8DyziWtkfBw&list=RD8DyziWtkfBw&start_radio=1">Red Hot Cilli Peppers</a>
+                    <div class="details">
+                        <p>435M views</p>
+                        <p>15 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-video">
+                <div class="wrapper">
+                    <img src="assets/Img/Thumb/ZorovsMihawk.webp" alt="Imagem do anime One Piece">
+                </div>
+                <div class="container-text">
+                    <h2>ONE PIECE: Zoro vs Mihawk Fight | Netflix</h2>
+                    <a href="https://www.youtube.com/watch?v=spMqxS3a-H0">One Piece</a>
+                    <div class="details">
+                        <p>12M views</p>
+                        <p>1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+                       <div class="container-video">
+                <div class="wrapper">
+                    <img src="assets/Img/Thumb/cranberries.avif" alt="Imagem da banda Cranberries">
+                </div>
+                <div class="container-text">
+                    <h2>The Cranberries - Ode to my Family (Official Music Video)</h2>
+                    <a href="https://www.youtube.com/watch?v=Zz-DJr1Qs54&list=RDZz-DJr1Qs54&start_radio=1">The Cranberries</a>
+                    <div class="details">
+                        <p>225M views</p>
+                        <p>16 years ago</p>
+                    </div>
+                </div>
+            </div>      
+            </div>
+        </aside>
+
+    </main>
+    
+  <footer>
+  <p>Feito com ❤️ por <a href="https://github.com/MarcioROBSousa" target="_blank" rel="noopener noreferrer">Marcio Sousa</a></p>
+</footer>
+
+</body>
+</html>
